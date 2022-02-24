@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-withe: #fff;
+}
+
+html {
+    /* Font used is Regular 400 , Medium 500 , BOld 700*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: var(--clr-withe);
+}

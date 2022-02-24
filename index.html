@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+    <link rel="stylesheet" href="assets/Style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="main-container px-6 flex flex-col gap-4">
+            <!-- Main header -->
+            <header class="main-header mt-4">
+                <p class="text-xs text-gray-500 pb-2">Trending</p>
+                <h1 class=" font-bold text-xl">News from Ethereum</h1>
+            </header>
+            <!-- /Main header -->
+
+            <!-- Top News Container -->
+            <div class="top-news-items flex gap-6 overflow-x-auto justify-center">
+                <div class="top-news-item border rounded-lg">
+                    <figure class="top-news-item__img">
+                        <img class="rounded-t-lg m-0" src="https://i.postimg.cc/8zzyz8cc/planing.jpg"
+                            alt="planing to success">
+                    </figure>
+                    <div class="top-news-item__info my-8 pl-6">
+                        <div class="top-news-item__date text-xs text-gray-500">
+                            Saturday, 27 March 2021
+                        </div>
+                        <div class="top-news-item__article font-medium text-xl w-9/12">
+                            Ethereum on the moon, today price $1,7k.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Top News Container -->
+
+            <!-- Popular News Header -->
+            <header class="popular-header flex justify-between">
+                <div class="popular-header__left font-medium text-xl">
+                    Popular
+                </div>
+                <div class="popular-header__right text-blue-600">
+                    <a href="#">Show all</a>
+                </div>
+            </header>
+            <!-- /Popular News Header -->
+            <!-- Popular News -->
+            <div class="popular-news-items flex flex-col gap-4">
+                <div class="popular-news-item flex gap-5">
+                    <figure class="popular-news-item__img">
+                        <img class="rounded-md" src="https://i.postimg.cc/fWVh6Cs5/growimg.png"
+                            alt="team working hard to achieve success">
+                    </figure>
+                    <div class="popular-news-item-info flex flex-col justify-center">
+                        <div class="popular-news-item__date text-xs text-gray-500 mt-2">
+                            Saturday, 27 March 2021
+                        </div>
+                        <div class="popular-news-item__article mt-3 text-sm font-medium">
+                            3 bitcoin-mining experts explain why concerns around the ...
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-news-item flex gap-4">
+                    <figure class="popular-news-item__img">
+                        <img class="rounded-md" src="https://i.postimg.cc/tCPGggYx/businessman-achieving-goal.png"
+                            alt="team working hard to achieve success">
+                    </figure>
+                    <div class="popular-news-item-info flex flex-col justify-center">
+                        <div class="popular-news-item__date text-xs text-gray-500 mt-2">
+                            Sunday, 26 March 2021
+                        </div>
+                        <div class="popular-news-item__article mt-3 text-sm font-medium">
+                            Hot cryptocurrency raises questions while price surges
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-news-item flex gap-4 mb-12">
+                    <figure class="popular-news-item__img ">
+                        <img class="rounded-md" src="https://i.postimg.cc/Ls9cvBvt/business-conference.png"
+                            alt="team working hard to achieve success">
+                    </figure>
+                    <div class="popular-news-item-info flex flex-col justify-center">
+                        <div class="popular-news-item__date text-xs text-gray-500 mt-2">
+                            Saturday, 27 March 2021
+                        </div>
+                        <div class="popular-news-item__article mt-3 text-sm font-medium">
+                            Bircoin on the moon again today price $58,990.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Popular News -->
+        </div>
+    </main>
+</body>
+
+</html>
